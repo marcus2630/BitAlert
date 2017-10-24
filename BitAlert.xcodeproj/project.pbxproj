@@ -15,6 +15,9 @@
 		2C0784331F9FAB6B007E9721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0784311F9FAB6B007E9721 /* LaunchScreen.storyboard */; };
 		2C07843E1F9FAB6B007E9721 /* BitAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07843D1F9FAB6B007E9721 /* BitAlertTests.swift */; };
 		2C0784491F9FAB6B007E9721 /* BitAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0784481F9FAB6B007E9721 /* BitAlertUITests.swift */; };
+		2C07845D1F9FAC30007E9721 /* TradingPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07845C1F9FAC30007E9721 /* TradingPair.swift */; };
+		2C07845F1F9FB15A007E9721 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07845E1F9FB15A007E9721 /* Stub.swift */; };
+		2C0784621F9FB8FB007E9721 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0784611F9FB8FB007E9721 /* Ticker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2C0784441F9FAB6B007E9721 /* BitAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0784481F9FAB6B007E9721 /* BitAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitAlertUITests.swift; sourceTree = "<group>"; };
 		2C07844A1F9FAB6B007E9721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C07845C1F9FAC30007E9721 /* TradingPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingPair.swift; sourceTree = "<group>"; };
+		2C07845E1F9FB15A007E9721 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		2C0784611F9FB8FB007E9721 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,11 @@
 		2C0784251F9FAB6B007E9721 /* BitAlert */ = {
 			isa = PBXGroup;
 			children = (
+				2C07845B1F9FAC07007E9721 /* Views */,
+				2C07845A1F9FABF8007E9721 /* Data Sources */,
+				2C0784591F9FABDB007E9721 /* Controllers */,
+				2C0784581F9FABD5007E9721 /* View Models */,
+				2C0784561F9FAB88007E9721 /* Models */,
 				2C0784261F9FAB6B007E9721 /* AppDelegate.swift */,
 				2C0784281F9FAB6B007E9721 /* MasterViewController.swift */,
 				2C07842A1F9FAB6B007E9721 /* DetailViewController.swift */,
@@ -126,6 +137,52 @@
 				2C07844A1F9FAB6B007E9721 /* Info.plist */,
 			);
 			path = BitAlertUITests;
+			sourceTree = "<group>";
+		};
+		2C0784561F9FAB88007E9721 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C0784571F9FAB9D007E9721 /* Endpoint */,
+				2C07845C1F9FAC30007E9721 /* TradingPair.swift */,
+				2C0784611F9FB8FB007E9721 /* Ticker.swift */,
+				2C07845E1F9FB15A007E9721 /* Stub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C0784571F9FAB9D007E9721 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		2C0784581F9FABD5007E9721 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		2C0784591F9FABDB007E9721 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C07845A1F9FABF8007E9721 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		2C07845B1F9FAC07007E9721 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C07842B1F9FAB6B007E9721 /* DetailViewController.swift in Sources */,
+				2C07845F1F9FB15A007E9721 /* Stub.swift in Sources */,
+				2C07845D1F9FAC30007E9721 /* TradingPair.swift in Sources */,
+				2C0784621F9FB8FB007E9721 /* Ticker.swift in Sources */,
 				2C0784291F9FAB6B007E9721 /* MasterViewController.swift in Sources */,
 				2C0784271F9FAB6B007E9721 /* AppDelegate.swift in Sources */,
 			);
