@@ -39,7 +39,6 @@ class TradingPair {
 extension TradingPair {
     convenience init?(json: [Any]) {
         
-        
         // do we have data? Bitfinex responses are all strings, so no downcasting here.
         guard   let ticker = json[0] as? Ticker,
                 let bid = json[1] as? Float,
